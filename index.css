@@ -1,0 +1,12 @@
+.background{
+    background-color: #31333B;
+}
+nav {
+    height: 13vh;
+}
+nav ul li{
+    font-size: large;
+    color: green;
+}
+
+

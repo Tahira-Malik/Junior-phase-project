@@ -1,0 +1,24 @@
+/* about-section css */
+#about{
+    position: relative;
+}
+#about .heading {
+    font-weight: bold;
+    color: white;
+    font-size: 8vh;
+}
+
+#about span{
+color: #FFC86B;
+font-size: 4vh;
+ 
+
+}
+#about p{
+    line-height: 1.8;
+}
+#about p a{
+    text-decoration: none;
+    color: #FFC86B;
+    font-weight: bold;
+}

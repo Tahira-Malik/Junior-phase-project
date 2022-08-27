@@ -1,0 +1,29 @@
+/* skills-section css */
+#skills h1{
+    font-weight: bold;
+    color: white;
+    font-size: 8vh;
+    margin-bottom: 4%; 
+}
+#skills .row .card{
+    background-color:#34353A;
+    box-shadow: 4px 4px 4px 4px #282a2f;
+    height: 38vh;
+}
+#skills .row .card:hover{
+    background-color:#F0BF6C;
+    transition: all 0.4s ease-in;
+}
+#skills .img img{
+    width: 29%;
+    margin-left: 7.5vw; 
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+
+}
+
+#skills p{
+    font-weight: bold;
+    color: white;
+    font-size: 3vh;
+}

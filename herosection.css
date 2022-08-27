@@ -1,0 +1,64 @@
+/* hero-section css */
+#herosection {
+    position: relative;
+    background-image: url(./assests/tahira.png);
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    background-position-y: bottom;
+}
+
+#herosection .leftrow {
+    height: 86vh;
+    margin-left: 4rem;
+}
+
+#herosection .left .leftrow .Contactbtn a {
+    color: #FFC86B;
+    border: 3px solid #FFC86B;
+}
+
+#herosection .left .leftrow .Contactbtn a:hover {
+    color: white;
+    border: 3px solid white;
+    transition: all 0.2s ease-in;
+}
+
+#herosection .right .sociallink a .facebook {
+    position: absolute;
+    top: 67%;
+    left: 90%;
+    padding-bottom: 3vh;
+}
+
+#herosection .right .sociallink a .twitter {
+    position: absolute;
+    top: 75%;
+    left: 90%;
+    padding-bottom: 3vh;
+}
+
+#herosection .right .sociallink a .linkedin {
+    position: absolute;
+    top: 84%;
+    left: 90%;
+    padding-bottom: 3vh;
+}
+
+#herosection .right .sociallink a .whatsapp {
+    position: absolute;
+    top: 92%;
+    left: 90%;
+    padding-bottom: 3vh;
+}
+
+#herosection .right .sociallink::before {
+    content: "";
+    display: block;
+    width: 3px;
+    height: 120px;
+    margin: 0px auto;
+    background-color: #FFC86B;
+    position: absolute;
+    top: 46%;
+    left: 91.3%;
+}
